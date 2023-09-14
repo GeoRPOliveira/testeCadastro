@@ -11,7 +11,7 @@ body{
 
 .logo{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 73rem;
     height: 5rem;
     margin-top: 35px;
@@ -105,3 +105,50 @@ body{
                 0 0 50px #9602ff,
                 0 0 100px #9602ff;
   }
+
+@media (max-width: 500px){
+  body{
+    background-image: linear-gradient(to bottom,#4F0F59, black );
+
+  }
+  .logo{
+    width: 15rem;
+    height: 5rem;
+    margin-top: 40px;
+}
+.logo>.borbo>img{
+    height: 65px;
+    width: 65px;
+}
+.logo>.access{
+    margin-left: 10px;
+}
+.logo>.access>img{
+    height: 23px;
+}
+
+.login-box {
+  width: 80%;
+  height: 20em;
+}
+
+.login-box h2 {
+  font-size: 18px;
+}
+
+.login-box form a {
+  font-size: 15px;
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 350px){
+  .login-box form a{
+    font-size: 14px;
+  }
+}
+@media (max-width: 300px){
+  .login-box form a{
+    font-size: 7.4px;
+  }
+}
