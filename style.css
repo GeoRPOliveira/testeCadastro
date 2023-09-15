@@ -47,6 +47,7 @@ body{
     padding: 0;
     color: #fff;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .login-box .user-box {
@@ -72,6 +73,7 @@ body{
     font-size: 16px;
     color: #fff;
     transition: .5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .login-box .user-box input:focus ~ label,
@@ -93,7 +95,8 @@ body{
     overflow: hidden;
     transition: .5s;
     margin-top: 40px;
-    letter-spacing: 4px
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .login-box a:hover {
